@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Navigation Menu</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+    crossorigin="anonymous"
+  />
+  <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="click" />
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <div class="position-relative content ">
+        <div class="w-75 d-md-flex flex-sm-column flex-md-row justify-content-end position-absolute center-absolute align-items-center content-wrapper">
+          <div class="red-circle position-absolute"></div>
+          <div class=" mr-sm-0 mr-5 w-75 main-text">
+            <p class="position-relative"><span class="display-3 number mr-2 position-absolute">01</span>Hello, I’m</p>
+          
+            <h2 class="display-3">Olawale adedeko</h2>
+            <p>Hello! I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
+          </div>
+          <div class="d-flex flex-md-column flex-sm-row ml-5 pr-4 social-icons justify-content-center">
+            <a href="#" class="social-icon twitter">
+              <i class="fab fa-github"></i> 
+            </a>
+            <a href="#" class="social-icon twitter">
+              <i class="fab fa-twitter social"></i>
+            </a>
+            <a href="#" class="social-icon linkedIn">
+              <i class="fab fa-linkedin-in social"></i>
+            </a>
+            <a href="#" class="social-icon linkedIn">
+              <i class="fab fa-medium"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <section class="projects">
+        <div class="section-header mx-auto">
+          <p class="position-relative ml-2"><span class="display-3 number mr-5 position-absolute">02</span>My recent works</p>
+          <h2 class="display-3">Porfolio</h2>
+        </div>
+        <div class="project w-100">
+          <div class="top-left d-sm-none d-none d-md-block h-100">
+          </div>
+          <div class="bottom-left d-none d-md-block h-100">
+          </div>
+          <div class="big position-relative h-100">
+            <div class="project-header position-absolute">
+              <h3>Team Save</h3>
+              <div class="project-stack d-flex">
+                <span class="stack mr-2 p-2">HTML/CSS</span>
+                <span class="stack mr-2 p-2">Ruby on Rails</span>
+                <span class="stack mr-2 p-2">Javascript</span>
+              </div>
+            </div>
+            <a href="#" class="project-btn position-absolute p-2 red-bg">View Project<i class="fas fa-long-arrow-alt-right ml-3"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="aboutd-fle x">
+        
+      </section>
+    </main>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
+</html>
